@@ -9,7 +9,7 @@ topnav_title: Template for minimum API documentation
 site_title: Template for minimum API documentation, published with Tom Johnson's Jekyll theme for documentation (http://idratherbewriting.com)
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Hillary Fraley
+company_name: Company Name
 # this appears in the footer
 
 github_editme_path: 
