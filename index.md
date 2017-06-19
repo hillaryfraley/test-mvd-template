@@ -2,7 +2,7 @@
 layout: home
 ---
 
-### Template Instructions
+## Template Instructions
 
 This template is a fill-in-the-blank framework for developing basic API documentation. The idea is to replace all of the [prompts in brackets] with content that's specific to your API. When you've replaced all the bracketed prompts, you'll have the essentials documented sufficiently to help people use your API.
 
@@ -12,7 +12,7 @@ The template is written in [Markdown](https://daringfireball.net/projects/markdo
 
 If you're interested in ideas for moving beyond basic API documentation, check out [this article](link to API doc checklist article).
 
-# Basic API Documentation Template
+# [Name of API] API Documentation
 
 Welcome to the documentation for [name of API]! [Name of API] is a [type - RESTful, SOAP, platform-based] API that you can use to:
 
@@ -50,7 +50,7 @@ To pass your authentication information with your API requests, [explain how to 
 
 Here's an example workflow for an API that allows you to retrieve and update timesheet records.
 
-#### Example Workflow: Add a description to explain overtime on employee's timesheet
+### Example Workflow: Add a description to explain overtime on employee's timesheet
 
 You asked an employee, Meghan, to work 2 hours of overtime last Thursday. To make sure Payroll approves Meghan's timesheet with the extra 2 hours, you need to add a description.
 
@@ -58,7 +58,7 @@ To complete this outcome, you need Meghan's employee ID number and your authenti
 
 1. First, retrieve the record for Meghan's timesheet for last Thursday. Send a request to the `GET` https://api.payrollrecord.com/timesheet endpoint. Your request must include Meghan's employee ID number and the date as query parameters. Here's the complete request in cURL:
 
-```
+``` curl
 curl --request GET \
   --url 'https://api.payrollrecord.com/timesheet?employee={employee ID number}&date=2017-05-25' \
   --header 'authorization: {your authentication token}'
@@ -68,7 +68,7 @@ curl --request GET \
 
 3. Send a request to the `PUT` https://api.payrollrecord.com/timesheet endpoint. Your request must include the `timesheet_ID` as a query parameter and the description you want to add in the request body. Here's the complete request in cURL:
 
-```
+``` curl
 curl --request PUT \
   --url 'https://api.payrollrecord.com/timesheet?timesheet_id={timesheet ID number}' \
   --header 'authorization: {your authentication token}' \
@@ -90,7 +90,7 @@ You can start with cURL command line code samples, but you should also add code 
 
 [The *Reference* includes all the information users need to know to use your endpoints. That means you'll repeat the information below for each endpoint in your API.]
 
-### [Description of what the endpoint does---for example, "Retrieve a record" or "Delete a user"]
+### [Description of what the endpoint does, such as "Retrieve a record" or "Delete a user"]
 
 #### HTTP Method and URL
 
