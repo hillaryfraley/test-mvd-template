@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## Template Instructions
+<h2>Template Instructions</h2>
 
 This template is a fill-in-the-blank framework for developing basic API documentation. The idea is to replace all of the [prompts in brackets] with content that's specific to your API. When you've replaced all the bracketed prompts, you'll have the essentials documented sufficiently to help people use your API.
 
