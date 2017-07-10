@@ -4,14 +4,20 @@ keywords: api documentation, api docs, api documentation template
 tags: [api documentation]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: TThis template is a fill-in-the-blank framework for developing basic API documentation. The idea is to replace all of the [prompts in brackets] with content that's specific to your API. When you've replaced all the bracketed prompts, you'll have the essentials documented sufficiently to help people use your API.
+summary: This template is a fill-in-the-blank framework for developing basic API documentation.
+---
+
+#### How to use this template
+
+Replace all of the [prompts in brackets] with content that's specific to your API. When you've replaced all the bracketed prompts, you'll have the essentials documented sufficiently to help people use your API.
 
 If something in this template doesn't make sense for your API, delete it! And likewise, make sure to add any sections you need based on your API's particulars. We hope our suggestions in this template will spark more ideas about documenting features of your API to help users consume it.
 
 The template is written in [Markdown](https://daringfireball.net/projects/markdown/). Some options for publishing are listed at the bottom of the template.]
 
 If you're interested in ideas for moving beyond basic API documentation, check out [this article](link to API doc checklist article).
----
+
+# [Name of API] documentation
 
 Welcome to the documentation for [name of API]! [Name of API] is a [type - RESTful, SOAP, platform-based] API that you can use to:
 
