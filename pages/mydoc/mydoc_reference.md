@@ -6,13 +6,13 @@ folder: mydoc
 summary: The *Reference* includes all the information users need to know to use your endpoints. That means you'll repeat the information below for each endpoint in your API.
 ---
 
-##[Description of what the endpoint does---for example, "Retrieve a record" or "Delete a user"]
+## [Description of what the endpoint does---for example, "Retrieve a record" or "Delete a user"]
 
-#### HTTP Method and URL
+### HTTP Method and URL
 
 [`GET`, `PUT`, `POST`, or `DELETE` and URL---for example, `GET` https://api.payrollrecord.com/timesheet]
 
-#### Parameters
+### Parameters
 
 [Table that lists all query and path parameters for the endpoint]
 
@@ -23,7 +23,7 @@ Name | Type | Description | Required
 [Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional]
 ...
 
-#### Example Request
+### Example Request
 
 [Code or pseudocode sample of a complete request for this endpoint, including header and body, followed by a table that lists each element in the example request]
 
@@ -34,7 +34,7 @@ Element | Type | Description | Required
 [Element as it appears in request] | [array, object, string, integer, or float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
 ...
 
-#### Example Response
+### Example Response
 
 [Code or pseudocode sample of a complete response for this endpoint, followed by a table that lists each element in the example response]
 
@@ -45,7 +45,7 @@ Element | Type | Description
 [Element as it appears in response] | [array, object, string, integer, or float] | [Brief description of what information the element represents]
 ...
 
-#### Error and Status Codes
+### Error and Status Codes
 
 [Table that lists all possible error and status codes for this endpoint]
 

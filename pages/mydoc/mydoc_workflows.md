@@ -8,7 +8,7 @@ summary: Describe the optimal or assumed workflows for a few things users can ac
 
 [Here's an example workflow for an API that allows you to retrieve and update timesheet records.
 
-**Example Workflow: Add a description to explain overtime on employee's timesheet**
+## Example Workflow: Add a description to explain overtime on employee's timesheet
 
 You asked an employee, Meghan, to work 2 hours of overtime last Thursday. To make sure Payroll approves Meghan's timesheet with the extra 2 hours, you need to add a description.
 
@@ -36,9 +36,5 @@ curl --request PUT \
 
 Now, if you send another request for Meghan's timesheet for May 25, 2017 (like you did in Step 1), you will see the description you added at the end of the JSON object in the response.]
 
-
-## What's next?
-
-Need to get an [authorization token]? See [Getting Started][index]. If you're looking for endpoint information, head to [References][support]
 
 {% include links.html %}

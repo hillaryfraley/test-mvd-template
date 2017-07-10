@@ -48,8 +48,4 @@ To get your [authentication token], [explain how to get the token---for example,
 
 To pass your authentication information with your API requests, [explain how to pass authentication token---for example, use the authorization header in cURL].
 
-## What to do next
-
-Why not read a few [workflows][inroduction]? Or, check out a few [code samples][supported features]
-
 
