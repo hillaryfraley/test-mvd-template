@@ -1,22 +1,62 @@
 ---
-title: About the theme author
-keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
-last_updated: July 3, 2016
-tags: [getting_started]
-summary: "I have used this theme for projects that I've worked on as a professional technical writer."
+title: Reference
 sidebar: mydoc_sidebar
 permalink: mydoc_about.html
 folder: mydoc
 ---
 
-My name is Tom Johnson, and I'm a technical writer, blogger, and podcaster based in San Jose, California. My blog is here: [http://idratherbewriting.com](http://idratherbewriting.com). I write several posts there a week. See [my blog's about page](http://idratherbewriting.com/aboutme/) for more details about me.
+## Reference
 
-I have used this theme and variations of it for various documentation projects. This theme has undergone several major iterations, and now it's fairly stable and full of all the features that I need. You are welcome to use it for your documentation projects for free.
+[The *Reference* includes all the information users need to know to use your endpoints. That means you'll repeat the information below for each endpoint in your API.]
 
-I think this theme does pretty much everything that you can do with something like OxygenXML, but without the constraints of structured authoring. Everything is completely open and changeable, so if you start tinkering around with the theme's files, you can break things. But it's completely empowering as well!
+##[Description of what the endpoint does---for example, "Retrieve a record" or "Delete a user"]
 
-With a completely open architecture and code base, you can modify the code to make it do exactly what you want, without having to jump through all kinds of confusing or proprietary code.
+#### HTTP Method and URL
 
-If there's a feature you need but it isn't available here, let me know and I might add it. Alternatively, if you fork the theme, I would love to see your modifications and enhancements.
+[`GET`, `PUT`, `POST`, or `DELETE` and URL---for example, `GET` https://api.payrollrecord.com/timesheet]
+
+#### Parameters
+
+[Table that lists all query and path parameters for the endpoint]
+
+Name | Type | Description | Required
+---- | ---- | ----------- | --------
+[Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional]
+[Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional]
+[Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional]
+...
+
+#### Example Request
+
+[Code or pseudocode sample of a complete request for this endpoint, including header and body, followed by a table that lists each element in the example request]
+
+Element | Type | Description | Required
+------- | ---- | ----------- | --------
+[Element as it appears in request] | [array, object, string, integer, or float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
+[Element as it appears in request] | [array, object, string, integer, or float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
+[Element as it appears in request] | [array, object, string, integer, or float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
+...
+
+#### Example Response
+
+[Code or pseudocode sample of a complete response for this endpoint, followed by a table that lists each element in the example response]
+
+Element | Type | Description
+------- | ---- | -----------
+[Element as it appears in response] | [array, object, string, integer, or float] | [Brief description of what information the element represents]
+[Element as it appears in response] | [array, object, string, integer, or float] | [Brief description of what information the element represents]
+[Element as it appears in response] | [array, object, string, integer, or float] | [Brief description of what information the element represents]
+...
+
+#### Error and Status Codes
+
+[Table that lists all possible error and status codes for this endpoint]
+
+Code | Message | Meaning
+---- | ------- | -------
+[HTTP code, such as "404"] | [Message for code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
+[HTTP code, such as "404"] | [Message for code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
+[HTTP code, such as "404"] | [Message for code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
+...
 
 {% include links.html %}
