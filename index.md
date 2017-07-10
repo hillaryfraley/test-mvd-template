@@ -1,5 +1,5 @@
 ---
-title: Basic API Documentation Template
+title: [Name of API] documentation
 keywords: api documentation, api docs, api documentation template
 sidebar: mydoc_sidebar
 permalink: index.html
@@ -14,9 +14,10 @@ If something in this template doesn't make sense for your API, delete it! And li
 
 The template is written in [Markdown](https://daringfireball.net/projects/markdown/). Some options for publishing are listed at the bottom of the template.]
 
-If you're interested in ideas for moving beyond basic API documentation, check out [this article](link to API doc checklist article).
+If you're interested in ideas for moving beyond basic API documentation, check out [this article](link to API doc checklist article).]
 
-# [Name of API] documentation
+-----------------
+
 
 Welcome to the documentation for [name of API]! [Name of API] is a [type - RESTful, SOAP, platform-based] API that you can use to:
 
