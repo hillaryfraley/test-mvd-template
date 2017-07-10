@@ -1,5 +1,5 @@
 ---
-title: [Name of API] documentation
+title: API documentation
 keywords: api documentation, api docs, api documentation template
 sidebar: mydoc_sidebar
 permalink: index.html
