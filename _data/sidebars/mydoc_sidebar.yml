@@ -52,12 +52,14 @@ entries:
       url: /mydoc_publishing_options.html
       output: web, pdf
 
-  - title: Troubleshooting
+  - title: About
     output: web, pdf
-
     folderitems:
 
-    - title: Troubleshooting
-      url: /mydoc_troubleshooting.html
+    - title: About this template
+      url: /mydoc_about_template.html
       output: web, pdf
 
+    - title: About this theme
+      url: /mydoc_about_theme.html
+      output: web, pdf
