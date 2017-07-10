@@ -1,27 +1,18 @@
 ---
 title: Code samples
-tags: [formatting]
-keywords: dcode samples syntax highlighting
-last_updated: July 3, 2016
-datatable: true
-summary: "You can use fenced code blocks with the language specified after the first set of backtick fences."
 sidebar: mydoc_sidebar
 permalink: mydoc_code_samples.html
 folder: mydoc
 ---
 
-## Code Samples
+[In *Code Samples*, provide a few complete code samples or snippets that users can copy and paste for common use cases. The idea is that your code samples will help users understand how to write their own code for your API.
 
-Use fenced code blocks with the language specified, like this:
+Use code blocks with the language specified, like this:
 
     ```js
     console.log('hello');
     ````
 
-**Result:**
+You can start with cURL command line code samples, but you should also add code samples in other languages to address common needs, such as JavaScript for web browser code and Java and Swift for mobile developers.]
 
-```js
-console.log('hello');
-```
-
-For the list of supported languages you can use (similar to `js` for JavaScript), see [Supported languages](https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers).
+{% include links.html %}

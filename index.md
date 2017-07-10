@@ -1,7 +1,6 @@
 ---
 title: Basic API Documentation Template
 keywords: api documentation, api docs, api documentation template
-tags: [api documentation]
 sidebar: mydoc_sidebar
 permalink: index.html
 summary: This template is a fill-in-the-blank framework for developing basic API documentation.
