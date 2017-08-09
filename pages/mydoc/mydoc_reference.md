@@ -20,7 +20,9 @@ summary: The *Reference* includes all the information users need to know to use 
 
 Name | Type | Description | Required?
 ---- | ---- | ----------- | ---------
-Test | test | test | test
+[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
+[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
+[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
 
 <table>
 <colgroup>
