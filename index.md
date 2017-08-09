@@ -7,7 +7,7 @@ permalink: index.html
 summary: This template is a fill-in-the-blank framework for developing basic API documentation.
 ---
 
-[**How to use this template**
+<mark>[**How to use this template**
 
 Replace all of the [prompts in brackets] with content that's specific to your API. When you've replaced all the bracketed prompts, you'll have the essentials documented sufficiently to help people use your API. If you want to work from a checklist, see the [MVD checklist](/pages/mydoc/mydoc_mvd_checklist.md).
 
@@ -15,7 +15,7 @@ If something in this template doesn't make sense for your API, delete it! And li
 
 The template is written in [Markdown](https://daringfireball.net/projects/markdown/). Some options for publishing are listed on the [Publishing options](/pages/mydoc/mydoc_publishing_options.md) page.
 
-If you're interested in ideas for moving beyond basic API documentation, check out [this article](link to API doc checklist article).]
+If you're interested in ideas for moving beyond basic API documentation, check out [this article](link to API doc checklist article).]</mark>
 
 -----------------
 
