@@ -1,5 +1,5 @@
 ---
-title: API documentation
+title: Get started
 keywords: api documentation, api docs, api documentation template
 sidebar: mydoc_sidebar
 toc: false
@@ -7,13 +7,13 @@ permalink: index.html
 summary: This template is a fill-in-the-blank framework for developing basic API documentation.
 ---
 
-**How to use this template**
+[**How to use this template**
 
-Replace all of the [prompts in brackets] with content that's specific to your API. When you've replaced all the bracketed prompts, you'll have the essentials documented sufficiently to help people use your API.
+Replace all of the [prompts in brackets] with content that's specific to your API. When you've replaced all the bracketed prompts, you'll have the essentials documented sufficiently to help people use your API. If you want to work from a checklist, see the [MVD checklist](mydoc_mvd_checklist.md).
 
-If something in this template doesn't make sense for your API, delete it! And likewise, make sure to add any sections you need based on your API's particulars. We hope our suggestions in this template will spark more ideas about documenting features of your API to help users consume it.
+If something in this template doesn't make sense for your API, delete it! And likewise, add any sections you need based on your API's particulars. We hope our suggestions in this template will spark more ideas about documenting features of your API to help users consume it.
 
-The template is written in [Markdown](https://daringfireball.net/projects/markdown/). Some options for publishing are listed at the bottom of the template.]
+The template is written in [Markdown](https://daringfireball.net/projects/markdown/). Some options for publishing are listed on the [Publishing options](mydoc_publishing_options.md) page.
 
 If you're interested in ideas for moving beyond basic API documentation, check out [this article](link to API doc checklist article).]
 
@@ -24,7 +24,7 @@ Welcome to the documentation for [name of API]! [Name of API] is a [type - RESTf
 
 * [Brief example use case - 1 sentence]
 * [Brief example use case - 1 sentence]
-* ...
+* [Brief example use case - 1 sentence]
 
 [Name of API] uses [protocol for requests, such as HTTP protocols `GET`, `POST`, `PUT`, and `DELETE`]. Responses are returned in [language] format. [Other items to mention about requests and responses, if applicable: whether users can specify the response language using the `ACCEPT` header.]
 
