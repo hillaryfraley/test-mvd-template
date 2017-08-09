@@ -7,7 +7,7 @@ permalink: index.html
 summary: This template is a fill-in-the-blank framework for developing basic API documentation.
 ---
 
-<mark>[**How to use this template**</mark>
+[**How to use this template**
 
 Replace all of the [prompts in brackets] with content that's specific to your API. When you've replaced all the bracketed prompts, you'll have the essentials documented sufficiently to help people use your API. If you want to work from a checklist, see the [MVD checklist](/pages/mydoc/mydoc_mvd_checklist.md).
 
