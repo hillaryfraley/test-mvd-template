@@ -16,9 +16,9 @@ summary: The *Reference* includes all the information users need to know to use 
 
 [Table that lists all query and path parameters for the endpoint]
 
-| Name | Type | Description | Required |
-| ---- | ---- | ----------- | -------- |
-| [Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional] |
+| Name | Type | Description | Required? |
+| ---- | ---- | ----------- | --------- |
+| Name of parameter | query or path | Brief description of parameter's function - what does it do? | Required or Optional |
 | [Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional] |
 | [Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional] |
 ...
@@ -27,8 +27,8 @@ summary: The *Reference* includes all the information users need to know to use 
 
 [Code or pseudocode sample of a complete request for this endpoint, including header and body, followed by a table that lists each element in the example request]
 
-Element | Type | Description | Required
-------- | ---- | ----------- | --------
+Element | Type | Description | Required?
+------- | ---- | ----------- | ---------
 [Element as it appears in request] | [array, object, string, integer, or float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
 [Element as it appears in request] | [array, object, string, integer, or float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
 [Element as it appears in request] | [array, object, string, integer, or float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
