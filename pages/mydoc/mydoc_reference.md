@@ -16,11 +16,44 @@ summary: The *Reference* includes all the information users need to know to use 
 
 [Table that lists all query and path parameters for the endpoint]
 
-| Name | Type | Description | Required? |
-| ---- | ---- | ----------- | --------- |
-| Name of parameter | query or path | Brief description of parameter's function - what does it do? | Required or Optional |
-| [Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional] |
-| [Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional] |
+<table>
+<colgroup>
+<col width="20%" />
+<col width="15%" />
+<col width="50%" />
+<col width="15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">[Name of parameter]</td>
+<td markdown="span">[query or path]</td>
+<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
+<td markdown="span">[Required or Optional]</td>
+</tr>
+<tr>
+<td markdown="span">[Name of parameter]</td>
+<td markdown="span">[query or path]</td>
+<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
+<td markdown="span">[Required or Optional]</td>
+</tr>
+<tr>
+<td markdown="span">[Name of parameter]</td>
+<td markdown="span">[query or path]</td>
+<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
+<td markdown="span">[Required or Optional]</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
 ...
 
 ### Example Request
