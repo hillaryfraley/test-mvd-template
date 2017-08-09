@@ -10,17 +10,17 @@ summary: The *Reference* includes all the information users need to know to use 
 
 ### HTTP Method and URL
 
-[`GET`, `PUT`, `POST`, or `DELETE` and URL---for example, `GET` https://api.payrollrecord.com/timesheet]
+[`GET`, `PUT`, `POST`, or `DELETE` and URL---for example, `GET https://api.payrollrecord.com/timesheet`]
 
 ### Parameters
 
 [Table that lists all query and path parameters for the endpoint]
 
-Name | Type | Description | Required
----- | ---- | ----------- | --------
-[Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional]
-[Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional]
-[Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional]
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| [Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional] |
+| [Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional] |
+| [Name of parameter] | [query or path] | [Brief description of parameter's function - what does it do?] | [Required or Optional] |
 ...
 
 ### Example Request
