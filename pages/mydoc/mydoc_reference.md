@@ -18,6 +18,10 @@ summary: The *Reference* includes all the information users need to know to use 
 
 [Table that lists all query and path parameters for the endpoint]
 
+Name | Type | Description | Required?
+---- | ---- | ----------- | ---------
+Test | test | test | test
+
 <table>
 <colgroup>
 <col width="20%" />
