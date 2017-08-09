@@ -3,7 +3,7 @@ title: Reference
 sidebar: mydoc_sidebar
 permalink: mydoc_reference.html
 folder: mydoc
-summary: The *Reference* includes all the information users need to know to use your endpoints. That means you'll repeat the information below for each endpoint in your API. Tables are written in HTML, with rows formatted to accept Markdown.
+summary: The *Reference* includes all the information users need to know to use your endpoints. That means you'll repeat the information below for each endpoint in your API.
 ---
 
 ## [Retrieve a record]
@@ -12,11 +12,11 @@ summary: The *Reference* includes all the information users need to know to use 
 
 ### HTTP Method and URL
 
-[`GET`, `PUT`, `POST`, or `DELETE` and URL---for example, `GET https://api.payrollrecord.com/timesheet`]
+[`GET`, `PUT`, `POST`, or `DELETE` and URL---for example, `GET https://api.payrollrecord.com/timesheet/{employee_id}`]
 
 ### Parameters
 
-[Table that lists all query and path parameters for the endpoint]
+[Table that lists all query and path parameters for the endpoint. If this endpoint has query and path parameters, consider listing them in separate tables---one for path parameters, one for query parameters. If there aren't any parameters for this endpoint, replace the table with "None"]
 
 Name | Type | Description | Required?
 ---- | ---- | ----------- | ---------
@@ -24,163 +24,35 @@ Name | Type | Description | Required?
 [Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
 [Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="50%" />
-<col width="15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-<th>Required?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[Name of parameter]</td>
-<td markdown="span">[query or path]</td>
-<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Name of parameter]</td>
-<td markdown="span">[query or path]</td>
-<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Name of parameter]</td>
-<td markdown="span">[query or path]</td>
-<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
-
 ### Example Request
 
 [Code or pseudocode sample of a complete request for this endpoint, including header and body, followed by a table that lists each element in the example request]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="50%" />
-<col width="15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Type</th>
-<th>Description</th>
-<th>Required?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents, including default and valid values]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents, including default and valid values]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents, including default and valid values]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Element | Type | Description | Required?
+------- | ---- | ----------- | ---------
+[Element as it appears in request] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
+[Element as it appears in request] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
+[Element as it appears in request] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
 
 ### Example Response
 
 [Code or pseudocode sample of a complete response for this endpoint, followed by a table that lists each element in the example response]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="65%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[Element as it appears in response]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Element | Type | Description
+------- | ---- | -----------
+[Element as it appears in response] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents]
+[Element as it appears in response] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents]
+[Element as it appears in response] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents]
 
 ### Error and Status Codes
 
 [Table that lists all possible error and status codes for this endpoint]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="65%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Code</th>
-<th>Message</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[HTTP or error code]</td>
-<td markdown="span">[Message for code, such as "Not Found"]</td>
-<td markdown="span">[Brief description of what the code means within your API, such as "We couldn't complete your request right now"]</td>
-</tr>
-<tr>
-<td markdown="span">[HTTP or error code]</td>
-<td markdown="span">[Message for code, such as "Not Found"]</td>
-<td markdown="span">[Brief description of what the code means within your API, such as "We couldn't complete your request right now"]</td>
-</tr>
-<tr>
-<td markdown="span">[HTTP or error code]</td>
-<td markdown="span">[Message for code, such as "Not Found"]</td>
-<td markdown="span">[Brief description of what the code means within your API, such as "We couldn't complete your request right now"]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Code | Message | Meaning
+---- | ------- | -------
+[HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
+[HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
+[HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
 
 ## [Add an employee]
 
@@ -192,165 +64,43 @@ Name | Type | Description | Required?
 
 ### Parameters
 
-[Table that lists all query and path parameters for the endpoint]
+[Table that lists all query and path parameters for the endpoint. If this endpoint has query and path parameters, consider listing them in separate tables---one for path parameters, one for query parameters. If there aren't any parameters for this endpoint, replace the table with "None"]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="50%" />
-<col width="15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-<th>Required?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[Name of parameter]</td>
-<td markdown="span">[query or path]</td>
-<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Name of parameter]</td>
-<td markdown="span">[query or path]</td>
-<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Name of parameter]</td>
-<td markdown="span">[query or path]</td>
-<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Name | Type | Description | Required?
+---- | ---- | ----------- | ---------
+[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
+[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
+[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
 
 ### Example Request
 
 [Code or pseudocode sample of a complete request for this endpoint, including header and body, followed by a table that lists each element in the example request]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="50%" />
-<col width="15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Type</th>
-<th>Description</th>
-<th>Required?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents, including default and valid values]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents, including default and valid values]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents, including default and valid values]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Element | Type | Description | Required?
+------- | ---- | ----------- | ---------
+[Element as it appears in request] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
+[Element as it appears in request] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
+[Element as it appears in request] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
 
 ### Example Response
 
 [Code or pseudocode sample of a complete response for this endpoint, followed by a table that lists each element in the example response]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="65%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[Element as it appears in response]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Element | Type | Description
+------- | ---- | -----------
+[Element as it appears in response] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents]
+[Element as it appears in response] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents]
+[Element as it appears in response] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents]
 
 ### Error and Status Codes
 
 [Table that lists all possible error and status codes for this endpoint]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="65%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Code</th>
-<th>Message</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[HTTP or error code]</td>
-<td markdown="span">[Message for code, such as "Not Found"]</td>
-<td markdown="span">[Brief description of what the code means within your API, such as "We couldn't complete your request right now"]</td>
-</tr>
-<tr>
-<td markdown="span">[HTTP or error code]</td>
-<td markdown="span">[Message for code, such as "Not Found"]</td>
-<td markdown="span">[Brief description of what the code means within your API, such as "We couldn't complete your request right now"]</td>
-</tr>
-<tr>
-<td markdown="span">[HTTP or error code]</td>
-<td markdown="span">[Message for code, such as "Not Found"]</td>
-<td markdown="span">[Brief description of what the code means within your API, such as "We couldn't complete your request right now"]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Code | Message | Meaning
+---- | ------- | -------
+[HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
+[HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
+[HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
 
 ## [Remove an employee]
 
@@ -362,169 +112,43 @@ Name | Type | Description | Required?
 
 ### Parameters
 
-[Table that lists all query and path parameters for the endpoint]
+[Table that lists all query and path parameters for the endpoint. If this endpoint has query and path parameters, consider listing them in separate tables---one for path parameters, one for query parameters. If there aren't any parameters for this endpoint, replace the table with "None"]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="50%" />
-<col width="15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-<th>Required?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[Name of parameter]</td>
-<td markdown="span">[query or path]</td>
-<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Name of parameter]</td>
-<td markdown="span">[query or path]</td>
-<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Name of parameter]</td>
-<td markdown="span">[query or path]</td>
-<td markdown="span">[Brief description of parameter's function. What does it do?]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Name | Type | Description | Required?
+---- | ---- | ----------- | ---------
+[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
+[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
+[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
 
 ### Example Request
 
 [Code or pseudocode sample of a complete request for this endpoint, including header and body, followed by a table that lists each element in the example request]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="50%" />
-<col width="15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Type</th>
-<th>Description</th>
-<th>Required?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents, including default and valid values]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents, including default and valid values]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents, including default and valid values]</td>
-<td markdown="span">[Required or Optional]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Element | Type | Description | Required?
+------- | ---- | ----------- | ---------
+[Element as it appears in request] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
+[Element as it appears in request] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
+[Element as it appears in request] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents, including default and valid values] | [Required or Optional]
 
 ### Example Response
 
 [Code or pseudocode sample of a complete response for this endpoint, followed by a table that lists each element in the example response]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="65%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[Element as it appears in response]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents]</td>
-</tr>
-<tr>
-<td markdown="span">[Element as it appears in request]</td>
-<td markdown="span">[array, object, string, integer, or float]</td>
-<td markdown="span">[Brief description of what information the element represents]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+Element | Type | Description
+------- | ---- | -----------
+[Element as it appears in response] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents]
+[Element as it appears in response] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents]
+[Element as it appears in response] | [Array, Object, String, Integer, or Float] | [Brief description of what information the element represents]
 
 ### Error and Status Codes
 
 [Table that lists all possible error and status codes for this endpoint]
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="65%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Code</th>
-<th>Message</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">[HTTP or error code]</td>
-<td markdown="span">[Message for code, such as "Not Found"]</td>
-<td markdown="span">[Brief description of what the code means within your API, such as "We couldn't complete your request right now"]</td>
-</tr>
-<tr>
-<td markdown="span">[HTTP or error code]</td>
-<td markdown="span">[Message for code, such as "Not Found"]</td>
-<td markdown="span">[Brief description of what the code means within your API, such as "We couldn't complete your request right now"]</td>
-</tr>
-<tr>
-<td markdown="span">[HTTP or error code]</td>
-<td markdown="span">[Message for code, such as "Not Found"]</td>
-<td markdown="span">[Brief description of what the code means within your API, such as "We couldn't complete your request right now"]</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
-
-
-
-
+Code | Message | Meaning
+---- | ------- | -------
+[HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
+[HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
+[HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
 
 
 {% include links.html %}
