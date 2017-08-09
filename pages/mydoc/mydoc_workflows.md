@@ -8,7 +8,7 @@ summary: Describe the optimal or assumed workflows for a few things users can ac
 
 [Here's an example workflow for an API that allows you to retrieve and update timesheet records.
 
-## Example Workflow: Add a description to explain overtime on employee's timesheet
+## Add a description to explain overtime on employee's timesheet
 
 You asked an employee, Meghan, to work 2 hours of overtime last Thursday. To make sure Payroll approves Meghan's timesheet with the extra 2 hours, you need to add a description.
 
